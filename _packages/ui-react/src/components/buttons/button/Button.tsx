@@ -7,7 +7,15 @@ export interface ButtonProps {
 export const Button: FC<ButtonProps> = props => {
   const { label, onClick } = props
 
-  return <button onClick={onClick}>{label}</button>
+  return (
+    <button
+      // style={{ backgroundColor: 'red', color: 'darkRed' }}
+      // style={{ background: 'black' }}
+      onClick={onClick}
+    >
+      {label}
+    </button>
+  )
 }
 
 Button.defaultProps = { label: 'Button' }

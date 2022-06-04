@@ -27,6 +27,14 @@ const parameters = {
       return 0
     },
   },
+  a11y: {
+    element: '#root',
+    config: {
+      rules: [],
+    },
+    disable: false,
+    options: {},
+  },
 }
 
 export const preview = {
