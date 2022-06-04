@@ -7,7 +7,9 @@
     "lint": "eslint *.ts*",
     "dev": "start-storybook -p 6006",
     "test": "test-storybook --browsers chromium firefox webkit",
-    "test:w": "test-storybook --watch"
+    "test:w": "test-storybook --watch",
+    "chromatic": "npx chromatic --project-token=04d51e5a83a9",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "config.react": "*"

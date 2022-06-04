@@ -10,7 +10,7 @@ export const Button: FC<ButtonProps> = props => {
   return (
     <button
       // style={{ backgroundColor: 'red', color: 'darkRed' }}
-      // style={{ background: 'black' }}
+      style={{ background: 'yellow' }}
       onClick={onClick}
     >
       {label}
