@@ -1,0 +1,20 @@
+{
+  "name": "pkg.ui-react",
+  "version": "0.0.0",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "scripts": {
+    "lint": "eslint *.ts*",
+    "dev": "start-storybook -p 6010"
+  },
+  "devDependencies": {
+    "config.storybook": "*",
+    "config.tsconfig": "*",
+    "config.lint": "*",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  }
+}

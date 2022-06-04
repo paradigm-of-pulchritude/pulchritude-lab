@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "esModuleInterop": true,
+    "types": ["node", "cypress"],
+    "typeRoots": ["node_modules/@types"],
+    "jsx": "react-jsx",
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts", "plugins/index.js", "support/index.js"]
+}

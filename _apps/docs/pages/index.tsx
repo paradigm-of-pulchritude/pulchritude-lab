@@ -1,10 +1,15 @@
-import { Button } from "ui";
+import { Button } from 'pkg.ui-react'
 
 export default function Docs() {
   return (
     <div>
       <h1>Docs</h1>
-      <Button />
+      <Button
+        label="BUTTON"
+        onClick={() => {
+          console.log('KKK')
+        }}
+      />
     </div>
-  );
+  )
 }

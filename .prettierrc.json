@@ -1,0 +1,11 @@
+{
+  "tabWidth": 2,
+  "printWidth": 90,
+  "semi": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "importOrder": ["^pkg.", "^config.", ".module.scss$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

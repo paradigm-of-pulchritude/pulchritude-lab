@@ -1,5 +1,5 @@
-const withTM = require("next-transpile-modules")(["ui"]);
+const withTM = require('next-transpile-modules')(['pkg.ui-react'])
 
 module.exports = withTM({
   reactStrictMode: true,
-});
+})

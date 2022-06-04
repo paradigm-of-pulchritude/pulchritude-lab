@@ -1,0 +1,15 @@
+{
+  "name": "config.tsconfig",
+  "version": "1.0.0",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-vite.json",
+    "react-library.json",
+    "cypress.json",
+    "script.json"
+  ],
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
+}
