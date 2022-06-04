@@ -1,21 +1,22 @@
-import { ItemSeparator, Meta, Story } from 'config.storybook'
+import { ItemSeparator, Meta, Story, userEvent, within, expect } from 'config.storybook'
 
-import { Button, ButtonProps } from './Button'
+import { Button } from './Button'
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Buttons/Button',
   component: Button,
   decorators: [ItemSeparator],
-  parameters: {
-    badges: ['stable'],
-  },
 }
 
 const Template: Story<typeof Button> = args => <Button {...args} />
 
 export const Playground = Template.bind({})
-Playground.args = {
-  label: 'Button',
-} as ButtonProps
+
+Playground.play = async ({ canvasElement, args }) => {
+  const canvas = within(canvasElement)
+  const button = canvas.getByRole('button')
+  await userEvent.click(button)
+  await expect(args.onClick).toHaveBeenCalled()
+}
 
 export default meta

@@ -4,6 +4,9 @@ module.exports = {
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-essentials', '@storybook/addon-interactions'],
   framework: '@storybook/react',
+  features: {
+    interactionsDebugger: true,
+  },
   webpackFinalScss: ruleParams => async config => {
     config.module.rules.push({
       ...ruleParams,
