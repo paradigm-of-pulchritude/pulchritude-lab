@@ -1,0 +1,63 @@
+{
+  "editor.rulers": [90],
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "eslint.format.enable": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.organizeImports": false,
+    "source.fixAll.eslint": true
+  },
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[js]": {
+    "editor.formatOnSave": true
+  },
+
+
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+
+  "emmet.showExpandedAbbreviation": "never",
+
+  "files.exclude": {
+    "**/openapitools.json": true,
+    "**/.prettierrc.json": true,
+    "**/.reports": true,
+    "Dockerfile": false,
+    "devops": true,
+    "**/dist": true,
+    "design": true,
+    "**/.turbo": true,
+    "turbo.json": true,
+    "package-lock.json": true,
+    "**/.gitignore": true,
+    "**/.husky": false,
+    "**/storybook-static": true,
+    "**/node_modules": true,
+    "**/*.module.scss.d.ts": false
+  },
+
+  "conventionalCommits": {
+    "gitmoji": true,
+    "promptScopes": false,
+    "promptBody": false,
+    "promptFooter": false
+  },
+  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    ".git",
+    ".vscode",
+    "**/locale/hu",
+    "**/swagger*.json",
+  ],
+  "cSpell.words": [],
+  "svg.preview.background": "editor",
+
+}
