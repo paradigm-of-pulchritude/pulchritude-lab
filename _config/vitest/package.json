@@ -1,0 +1,12 @@
+{
+  "name": "config.vitest",
+  "version": "1.0.0",
+  "files": [
+    "ts-react.eslintrc.js"
+  ],
+  "dependencies": {
+    "@vitest/ui": "0.13.1",
+    "vite": "^2.9.9",
+    "vitest": "0.13.1"
+  }
+}

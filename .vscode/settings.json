@@ -57,7 +57,10 @@
     "**/locale/hu",
     "**/swagger*.json",
   ],
-  "cSpell.words": [],
+  "cSpell.words": [
+    "camelcase",
+    "vitest"
+  ],
   "svg.preview.background": "editor",
 
 }

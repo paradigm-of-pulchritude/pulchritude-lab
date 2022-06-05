@@ -22,7 +22,13 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: ['react', 'prettier', 'react-hooks', '@typescript-eslint'],
+  plugins: [
+    'react',
+    'prettier',
+    'react-hooks',
+    '@typescript-eslint',
+    'simple-import-sort',
+  ],
   settings: {
     react: {
       version: 'detect',
@@ -39,6 +45,11 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/display-name': 'off',
     'react/prop-types': ['warn', { skipUndeclared: true }],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-duplicates': 'error',
   },
   overrides: [],
   ignorePatterns: [],

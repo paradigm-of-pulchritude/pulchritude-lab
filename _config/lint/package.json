@@ -2,7 +2,7 @@
   "name": "config.lint",
   "version": "1.0.0",
   "files": [
-    "ts-react.eslintrc.js"
+    "vite.config.ts"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.2",
